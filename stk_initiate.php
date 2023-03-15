@@ -24,7 +24,7 @@ if(isset($_POST['submit'])){
   */
   
    $PartyA = $_POST['phone']; // This is your phone number, 
-  $AccountReference = '2255';
+  $AccountReference = '9733279';
   $TransactionDesc = 'Test Payment';
   $Amount = $_POST['amount'];
  
@@ -85,6 +85,7 @@ if(isset($_POST['submit'])){
   $curl_response = curl_exec($curl);
   print_r($curl_response);
 
-  echo $curl_response;
+  // echo $curl_response;
+  echo "successful";
 };
 ?>

@@ -75,12 +75,10 @@
       <div class="card mt-5 px-3 py-4">
         <div class="d-flex flex-row justify-content-around">
           <div class="mpesa"><span>Mpesa </span></div>
-          <div><span>Paypal</span></div>
-          <div><span>Card</span></div>
         </div>
         <div class="media mt-4 pl-2">
           <img src="./images/1200px-M-PESA_LOGO-01.svg.png" class="mr-3" height="75" />
-          <div class="media-body">
+          <div class="media-body"><br>
             <h6 class="mt-1">Enter Amount & Number</h6>
           </div>
         </div>
@@ -99,7 +97,8 @@
                 </div>
              
                 <div class="col-12">
-                  <button type="submit" class="btn btn-success" name="submit" value="submit">Donate</button>
+                  <button type="submit" class="btn btn-success" name="submit" value="submit">PAY</button>
+                  <a href="../home.php"><button type="button" class="btn btn-outline-primary float-right">Cancel</button></a>
                 </div>
               </form>
               <!--bs5 input-->
